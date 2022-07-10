@@ -39,7 +39,7 @@ namespace SpaceHaven_Save_Editor.ViewModels
                     foreach (var characterStat in Character.CharacterStats) characterStat.Value = 150;
                     break;
                 case "Skills":
-                    foreach (var characterSkill in Character.CharacterSkills) characterSkill.Value = 3;
+                    foreach (var characterSkill in Character.CharacterSkills) characterSkill.Value = 10;
                     break;
                 case "Attributes":
                     foreach (var characterAttribute in Character.CharacterAttributes) characterAttribute.Value = 6;
